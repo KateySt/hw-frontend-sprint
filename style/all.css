@@ -1,7 +1,164 @@
-body{
-    background-color: red;
+body {
+    background-color: #EFEFF2;
+    margin: 0;
+    color: #19191C;
+    font: 400 18px/28px Inter, sans-serif;
 }
 
-.course{
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
 
+.header {
+    display: flex;
+    padding: 36px 200px 200px;
+    justify-content: space-between;
+}
+
+.header__box {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.link {
+    color: #19191C;
+    text-decoration: none;
+}
+
+.btn-box {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #19191C;
+    text-decoration: none;
+}
+
+.header__link {
+    color: #19191C;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.header__btn {
+    background: #19191C;
+    color: #EFEFF2;
+    padding: 12px 37px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.footer {
+    display: flex;
+    padding: 36px 200px 200px;
+    justify-content: space-between;
+    background: #19191C;
+    align-items: start;
+}
+
+.logo__wight {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #EFEFF2;
+    text-decoration: none;
+}
+
+.link__footer {
+    color: #EFEFF2;
+    text-decoration: none;
+}
+
+.sitemap__list {
+    list-style: none;
+    color: #EFEFF2;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.sitemap__title {
+    color: #EFEFF2;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 64px;
+    font-weight: 600;
+}
+
+.contact__list {
+    list-style: none;
+    color: #EFEFF2;
+    padding: 12px 37px;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 54px;
+    font-weight: 600;
+}
+
+.sitemap {
+    position: relative;
+    height: 100%;
+}
+
+.copyright {
+    width: 443px;
+    position: absolute;
+    margin: 390px;
+    color: #6D6D77;
+    display: flex;
+    align-items: center;
+}
+
+.link__privacy {
+    color: #6D6D77;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.course {
+    display: flex;
+    justify-content: space-between;
+}
+
+.course__holder {
+    width: 648px;
+}
+
+.course__title {
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
 }
