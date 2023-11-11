@@ -12,7 +12,7 @@ body {
 
 .header {
     display: flex;
-    padding: 36px 200px 200px;
+    padding: 36px 200px 0;
     justify-content: space-between;
 }
 
@@ -149,16 +149,168 @@ body {
 }
 
 .course {
+    padding: 100px 200px 0;
     display: flex;
     justify-content: space-between;
+    background: url("../img/business-finance-employment-female-successful-entrepreneurs-concept-confident-smiling-asian-businesswoman-office-worker-white-suit-glasses-using-laptop-help-clients 1.png") 100% 100% no-repeat, url("../img/Rectangle 107.svg") 80% 100% no-repeat, url("../img/gradient.png") no-repeat;
 }
 
 .course__holder {
     width: 648px;
+    height: 900px;
 }
 
 .course__title {
     font-size: 58px;
     line-height: 70px;
     font-weight: 700;
+}
+
+.course__time {
+    color: #19191C;
+    padding: 64px 0 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 0px;
+    font-weight: 700;
+}
+
+.course__profession {
+    color: #19191C;
+    padding: 64px 0 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.button {
+    border: none;
+    background: #504DEE;
+    color: #EFEFF2;
+    padding: 12px 37px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.course__sale {
+    color: #19191C;
+    padding: 84px 0 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 58px;
+    line-height: 0px;
+    font-weight: 700;
+}
+
+.course__list {
+    position: relative;
+    align-items: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.course__item {
+    position: absolute;
+    border: 2px solid #19191C;
+    padding: 16px 36px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.course__invision {
+    top: 20px;
+    right: 20px;
+}
+
+.course__protopie {
+    top: 10px;
+    right: 300px;
+}
+
+.course__miro {
+    top: 100px;
+    right: 600px;
+}
+
+.course__photoshop {
+    top: 350px;
+    right: 600px;
+}
+
+.course__figma {
+    top: 500px;
+    right: 800px;
+}
+
+.course__illustrator {
+    top: 650px;
+    right: 700px;
+}
+
+.about {
+    padding: 100px 200px 0;
+    display: flex;
+}
+
+.about__designer {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    display: flex;
+    gap: 180px;
+    position: relative;
+}
+
+.about__profession {
+    width: 648px;
+    height: 900px;
+}
+
+.about__learn {
+    position: absolute;
+    width: 200px;
+    top: 1600px;
+    right: 870px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.green,
+.yellow,
+.red {
+    padding: 40px;
+
+}
+
+.green {
+    background: #DEEFE4;
+}
+
+.yellow {
+    background: #F3F3D7;
+}
+
+.red {
+    background: #EFDEEE;
+}
+
+.title {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0px;
+    text-align: left;
 }
