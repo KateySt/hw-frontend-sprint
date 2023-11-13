@@ -280,9 +280,9 @@ body {
 
 .about__learn {
     position: absolute;
-    width: 200px;
+    width: 20%;
     top: 1600px;
-    right: 870px;
+    right: 50%;
     display: flex;
     gap: 50px;
     align-items: center;
@@ -313,4 +313,206 @@ body {
     line-height: 41px;
     letter-spacing: 0px;
     text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: #EFEFF2;
+        margin: 0;
+        color: #19191C;
+        font: 400 18px/28px Inter, sans-serif;
+    }
+
+    .container {
+        width: 89%;
+        padding: 20px 20px;
+        flex-direction: column;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .header__box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .nav__list {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        gap: 20px;
+        padding: 0;
+        margin: 0;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 600;
+    }
+
+    .link {
+        color: #19191C;
+        text-decoration: none;
+    }
+
+    .btn-box {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .logo {
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        color: #19191C;
+        text-decoration: none;
+    }
+
+    .header__link {
+        color: #19191C;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .header__btn {
+        background: #19191C;
+        color: #EFEFF2;
+        padding: 12px 37px;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+    }
+
+    .course {
+        padding: 50px 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background:
+                url("../img/business-finance-employment-female-successful-entrepreneurs-concept-confident-smiling-asian-businesswoman-office-worker-white-suit-glasses-using-laptop-help-clients 1.png") 60% 100% no-repeat,
+                url("../img/Rectangle 107.svg") 70% 100% no-repeat,
+                url("../img/gradient.png") no-repeat;
+    }
+
+    .course__holder {
+        width: 100%;
+    }
+
+    .course__title {
+        font-size: 32px;
+    }
+
+    .course__description {
+        width: 350px;
+    }
+
+    .course__time,
+    .course__profession,
+    .course__sale {
+        font-size: 16px;
+    }
+
+    .course__list {
+        position: static;
+        align-items: center;
+        list-style: none;
+        padding: 10px;
+        margin: 0;
+        flex-grow: 1;
+        width: 80%;
+    }
+
+    .course__item {
+        position: static;
+        border: 2px solid #19191C;
+        padding: 16px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 8px;
+    }
+
+
+    .about {
+        padding: 40px 20px 50px;
+    }
+
+    .about__designer {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .about__profession {
+        width: 100%;
+        height: auto;
+    }
+
+    .about__learn {
+        position: static;
+        width: 100%;
+        top: auto;
+        right: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .green,
+    .yellow,
+    .red {
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .header__box,
+    .nav__list,
+    .btn-box,
+    .course,
+    .about {
+        flex-direction: column;
+    }
+
+    .sitemap {
+        position: relative;
+        height: auto;
+    }
+
+    .copyright {
+        width: 100%;
+        position: relative;
+        margin: 10px auto;
+        padding: 0;
+        color: #6D6D77;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .link__privacy {
+        color: #6D6D77;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+
+    .course__time,
+    .course__profession,
+    .course__sale {
+        padding-top: 40px;
+    }
 }
